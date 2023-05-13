@@ -11,10 +11,9 @@ function iniciarJuego(){
 
     } while ( nombre === null|| nombre.length<3 || !isNaN(nombre));
 
-    alert("Gracias por jugar " + nombre + " que disfrutes el juego!")
-
 
     nombre = nombre.toUpperCase();
+    alert("Gracias por jugar " + nombre + " que disfrutes el juego!")
 
     console.log("----------------------------");
     console.log("El jugador es:");
@@ -25,4 +24,4 @@ function iniciarJuego(){
 
 }
 
-const nombreJugador = iniciarJuego();
+// const nombreJugador = iniciarJuego();
